@@ -7,12 +7,14 @@
 
 body {
    font-family: Arial, Helvetica, sans-serif;
-   background-color: #f6f8f9;
+   background-color: var(--bol-primary);
+   color: var(--bol-text-color);
 }
 
 /* common */
 :root {
    --bol-primary: #f6f8f9;
+   --bol-text-color: #484646;
    --bol-task-button: #47adf1;
    --bol-section-button: #cbd0d5;
    --bol-check: #76c7b4;
@@ -25,11 +27,6 @@ body {
 }
 
 /* generics */
-#container {
-   max-width: 1080px;
-   margin: 0 auto;
-}
-
 #logo {
    height: 60px;
    margin: 10px 10px 10px 30px;
@@ -42,9 +39,59 @@ body {
    font-weight: 800;
 }
 
+h1 {
+   color: black;
+}
+
+#container {
+   max-width: 70%;
+   margin: 0 auto;
+}
+
+#main-container {
+   max-width: 90%;
+   margin: 0 auto;
+   line-height: 30px;
+}
+
+span {
+   width: 100px;
+   height: 30px;
+   margin: 20px 0px;
+   border: none;
+   border-radius: 5px;
+   display: inline-block;
+   text-align: center;
+}
+
+#task-button {
+   background-color: var(--bol-task-button);
+   color: white;
+}
+
+#section-button {
+   background-color: white;
+   color: var(--bol-section-button);
+   border: solid 1px var(--bol-section-button);
+}
+
+
 /* header */
 header {
    height: 80px;
    background-color: white;
+}
+
+/* main */
+main {
+   background-color: white;
+   height: 700px;
+   margin: 50px 0px;
+   border-radius: 5px;
+}
+
+hr {
+   background-color: var(--bol-primary);
+   margin-bottom: 30px;
 }
 
