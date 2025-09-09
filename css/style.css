@@ -9,6 +9,7 @@ body {
    font-family: Arial, Helvetica, sans-serif;
    background-color: var(--bol-primary);
    color: var(--bol-text-color);
+   font-weight: bold;
 }
 
 /* common */
@@ -43,12 +44,14 @@ h1 {
    color: black;
 }
 
+section {margin-bottom: 20px;}
+
 #container {
    max-width: 70%;
    margin: 0 auto;
 }
 
-#main-container {
+#navbar-container, #main-container {
    max-width: 90%;
    margin: 0 auto;
    line-height: 30px;
@@ -85,7 +88,6 @@ header {
 /* main */
 main {
    background-color: white;
-   height: 700px;
    margin: 50px 0px;
    border-radius: 5px;
 }
@@ -94,4 +96,34 @@ hr {
    background-color: var(--bol-primary);
    margin-bottom: 30px;
 }
+
+p {
+   line-height: 20px;
+
+}
+
+.check {
+   width: 20px;
+   height: 20px;
+   color: var(--bol-check);
+   border: 1px solid var(--bol-check);
+   border-radius: 50%;
+}
+
+.cross {   width: 20px;
+   height: 20px;
+   color: var(--bol-cross);
+   border: 1px solid var(--bol-cross);
+   border-radius: 50%;}
+
+button {font-size: 0.8rem;
+   width: 80px;
+   height: 25px;
+   color: white;
+   border: none;
+   border-radius: 10px;
+   font-weight: bold;
+}
+
+.bg-blue {background-color: var(--bol-task-button);}
 
