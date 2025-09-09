@@ -127,3 +127,9 @@ button {font-size: 0.8rem;
 
 .bg-blue {background-color: var(--bol-task-button);}
 
+.bg-violet {background-color: var(--bol-goals-button);}
+
+.bg-green {background-color: var(--bol-recruiting-button);}
+
+.bg-orange {background-color: var(--bol-mobile-button);}
+
